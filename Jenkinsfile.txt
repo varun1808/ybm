@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    agent balu
     agent Balu
     stages {
         stage('Build') {
